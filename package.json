@@ -10,10 +10,19 @@
     "build": "npm run build --prefix client",
     "start": "npm run start --prefix server"
   },
-  "keywords": ["social", "networking", "react", "node", "mongodb"],
+  "keywords": [
+    "social",
+    "networking",
+    "react",
+    "node",
+    "mongodb"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "tsparticles": "^3.9.1"
   }
 }

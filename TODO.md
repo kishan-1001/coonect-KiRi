@@ -1,13 +1,7 @@
 # TODO: Implement Login and Signup Pages with MongoDB
 
 ## Backend Setup
-- [x] Create server/src/config/database.js for MongoDB connection
-- [x] Implement server/src/models/User.js with email, password, etc.
-- [x] Create server/src/controllers/authController.js for login/signup with JWT
-- [x] Set up server/src/routes/authRoutes.js
-- [x] Update server/src/app.js to include auth routes and middleware
-- [x] Update server/src/server.js to connect to DB and start server
-- [x] Add dependencies to server/package.json (mongoose, bcryptjs, jsonwebtoken, express, cors, dotenv)
+
 
 ## Frontend Setup
 - [x] Build client/src/pages/Login.jsx with form
