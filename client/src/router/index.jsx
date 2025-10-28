@@ -1,6 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Login from '../pages/Login';
-import Register from '../pages/Register';
+import Auth from '../pages/Auth';
 import Home from '../pages/Home';
 import Profile from '../pages/Profile';
 import MatchFinder from '../pages/MatchFinder';
@@ -11,15 +10,15 @@ import NotFound from '../pages/NotFound';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Login />,
+    element: <Auth />,
   },
   {
     path: '/login',
-    element: <Login />,
+    element: <Auth />,
   },
   {
     path: '/register',
-    element: <Register />,
+    element: <Auth />,
   },
   {
     path: '/home',
