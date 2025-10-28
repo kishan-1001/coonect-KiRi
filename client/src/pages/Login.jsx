@@ -42,7 +42,7 @@ const Login = () => {
       <div className="max-w-md w-full space-y-8 relative z-10 bg-white bg-opacity-90 p-8 rounded-lg shadow-lg">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to Connectify
+            Sign in to KiRi
           </h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
