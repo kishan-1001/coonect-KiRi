@@ -6,6 +6,8 @@ import MatchFinder from '../pages/MatchFinder';
 import Activities from '../pages/Activities';
 import ChatRoom from '../pages/ChatRoom';
 import NotFound from '../pages/NotFound';
+import ForgotPassword from '../pages/ForgotPassword';
+import ResetPassword from '../pages/ResetPassword';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
   {
     path: '/register',
     element: <Auth />,
+  },
+  {
+    path: '/forgot-password',
+    element: <ForgotPassword />,
+  },
+  {
+    path: '/reset-password',
+    element: <ResetPassword />,
   },
   {
     path: '/home',

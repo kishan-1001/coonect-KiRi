@@ -156,6 +156,16 @@ const Auth = () => {
                 />
               </div>
 
+              <div className="text-right">
+                <button
+                  type="button"
+                  onClick={() => navigate('/forgot-password')}
+                  className="text-blue-400 hover:text-blue-300 transition-colors text-sm"
+                >
+                  Forgot Password?
+                </button>
+              </div>
+
               <button
                 type="submit"
                 disabled={loading}
