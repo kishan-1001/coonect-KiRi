@@ -5,6 +5,7 @@ import Profile from '../pages/Profile';
 import MatchFinder from '../pages/MatchFinder';
 import Activities from '../pages/Activities';
 import ChatRoom from '../pages/ChatRoom';
+import NearbyMap from '../pages/NearbyMap';
 import NotFound from '../pages/NotFound';
 import ForgotPassword from '../pages/ForgotPassword';
 import ResetPassword from '../pages/ResetPassword';
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: '/chat/:roomId',
     element: <ChatRoom />,
+  },
+  {
+    path: '/nearby-map',
+    element: <NearbyMap />,
   },
   {
     path: '*',
